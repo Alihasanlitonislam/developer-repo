@@ -217,6 +217,7 @@ section {
 }
 /* footer pat */
 .footer{
+    padding-bottom: 30px;
     background-color: rgba(255, 166, 0, 0.432);
 }
 .footer-secetion{
