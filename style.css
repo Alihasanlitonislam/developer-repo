@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.primari-color{
+    color: orange;
+}
+.btn{
+    height: 60px;
+    border-radius: 5px;
+    background: orange;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 30px;
+    border: 0;
+    padding: 18px 35px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px  100px;
+}
+.nav-title{
+    font-weight: 700;
+    font-size: 50px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+
+
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+.header{
+    background: rgb(252, 242, 223);
+    background-image: url(./images/header_bg.png),url(./images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    background-size: contain;
+}
+/* banner */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 75px;
+}
+.banner-title{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.banner-item{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.banner-p-tag{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px ;
+}
+.btn-bon{
+    display: flex;
+}
+.btn-download{
+    margin-right: 5px;
+    background: orange;
+    padding: 10px 10px;
+    border: 0;
+    color: white;
+    font-size:15px;
+}
+#icon{
+    color: black;
+    padding-right: 5px;
+}
+
+.contact{
+    padding: 10px 15px;
+    border: 1px solid orange;
+    color: black;
+    font-size: 15px;
+}
+#phone{
+    padding-right: 5px;
+}
+.banner img{
+    width: 400px;
+}
+/* main */
+main{
+    max-width: 900px;
+    margin:auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 12px 12px 2px 1px rgba(187, 187, 190, 0.2);
+}
+.section{
+    background: rgb(252, 242, 223);
+    margin-top: 150px;
+    padding: 130px 150px;
+    text-align: center;
+}
+.sectuin-me{
+    font-size: 40px;
+    font-weight: 700;
+}
+.section-discript{
+    font-size: 20px;
+    font-weight: 500px;
+    color: rgb(88, 88, 88);
+    padding: 50px;
+
+}
+.contack{
+    display: flex;
+    justify-content: space-between;
+
+}
+.name h2{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(105, 105, 105, 0.61);
+    text-align: center;
+
+}
+.name h1{
+    font-size: 20px;
+    font-weight: 800;
+}
+/* expricencs pat */
+section {
+    margin: 42px 0;
+}
+.expricencs{
+    max-width: 900px;
+    margin: auto;
+}
+.expricncs-ber{
+    padding: 20px 30px;
+    text-align: center;
+}
+.expricncs-ber h1{
+    margin: 20px 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+.expricncs-ber p{
+    padding: 10px 50px;
+    margin-bottom: 30px;
+}
+.expricencs-manu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.expricencs-java {
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 3px 9px rgba(241, 241, 241, 0.822);
+}
+.expricencs-java p{
+    padding-left: 10px;
+}
+/* resume section */
+.resume {
+    margin-top: 80px;
+}
+.resume-h2{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.resume-education{
+    display: flex;
+    gap: 20px;
+}
+.education-master {
+    margin-top: 38px;
+    padding-top: 10px;
+}
+.master{
+    margin-top: 10px;
+}
+.master h1{
+    padding-bottom: 10px;
+}
+.master p {
+    margin-bottom: 10px;
+}
+.skill h1 {
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 30px;
+}
+.skill-experience h2 {
+    font-size: 27px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.skill-experience h3 {
+    margin-bottom: 12px;
+}
+.skill-experience p {
+    margin-bottom: 19px;
+}
+.skill-btn{
+    margin-top: 10px;
+    text-align: center;
+}
+/* footer pat */
+.footer{
+    background-color: rgba(255, 166, 0, 0.432);
+}
+.footer-secetion{
+    display: flex;
+    justify-content:space-evenly;
+    max-width: 900px;
+    margin: auto;
+    gap: 20px;
+
+}
+.footer-connect {
+    margin-top: 40px;
+}
+.footer-connect h1 {
+    margin-bottom: 20px;
+}
+
+.footer-connect p {
+    margin-bottom: 20px;
+}
+.footer-connect i {
+    padding: 3px;
+}
+.footer-messager{
+    margin-top: 40px;
+}
+.footer-messager h1 {
+    margin-bottom: 20px;
+}
+.footer-messager input{
+    display: block;
+    margin-bottom: 10px;
+    padding: 7px;
+}
+.footer-messager button{
+    margin-top: 10px;
+}
